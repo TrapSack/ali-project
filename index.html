@@ -1,0 +1,416 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="tictactoe.scss" />
+  </head>
+  <body>
+    <div class="ali-top-header">
+      <div class="logo_menu">
+        <img class="logo-menu__image" src="src/img/ali-logo.png" />
+        <div class="logo-menu__items">
+          <img class="logo-menu__image" src="src/img/abc.png" />
+        </div>
+      </div>
+      <div class="search">
+        <div class="search-row">
+          <input class="search-row__input" placeholder="Введите запрос здесь" />
+          <img class="search-row__icon" src="src/img/ali-search-icon.png" />
+        </div>
+        <div class="search__simillar_requests">
+          Похожие запросы:
+          <span class="search__similar_requests_text">гелек</span>
+          <span class="search__similar_requests_text">гелентваген</span>
+          <span class="search__similar_requests_text">гел</span>
+        </div>
+      </div>
+      <a class="ali-basket">
+        <img class="ali-basket__icon" src="src/img/ali-basket-icon.png" />
+      </a>
+    </div>
+    <div class="ali-main-window">
+      <div class="ali-main-window__settings-menu">
+        <div class="ali-main-window__settings-menu__brands">
+          <span class="unused-text">Бренды</span>
+          <div class="ali-main-window__settings-menu__brandbox">
+            <div class="ali-main-window__settings-menu__brands__brand-element">
+              <img
+                class="ali-main-window__settings-menu__brands__brand-element__image"
+                src="src/img/xiaomi-logo.png"
+              />
+            </div>
+            <div class="ali-main-window__settings-menu__brands__brand-element">
+              <img
+                class="ali-main-window__settings-menu__brands__brand-element__image"
+                src="src/img/xiaomi-logo.png"
+              />
+            </div>
+            <div class="ali-main-window__settings-menu__brands__brand-element">
+              <img
+                class="ali-main-window__settings-menu__brands__brand-element__image"
+                src="src/img/xiaomi-logo.png"
+              />
+            </div>
+            <div class="ali-main-window__settings-menu__brands__brand-element">
+              <img
+                class="ali-main-window__settings-menu__brands__brand-element__image"
+                src="src/img/xiaomi-logo.png"
+              />
+            </div>
+            <div class="ali-main-window__settings-menu__brands__brand-element">
+              <img
+                class="ali-main-window__settings-menu__brands__brand-element__image"
+                src="src/img/xiaomi-logo.png"
+              />
+            </div>
+            <div class="ali-main-window__settings-menu__brands__brand-element">
+              <img
+                class="ali-main-window__settings-menu__brands__brand-element__image"
+                src="src/img/xiaomi-logo.png"
+              />
+            </div>
+          </div>
+            </div>
+            <div class="ali-main-window__settings-menu__color-choice">
+              <span class="unused-text"> Цвет</span>
+              <div class="ali-main-window__settings-menu__color-choice__checkboxes">
+                <div class="ali-main-window__settings-menu__color-choice__checkboxes__element">
+                  <input type="checkbox" class="Green">
+                  <label for="Green">Зеленый</label>
+                </div>
+                <div class="ali-main-window__settings-menu__color-choice__checkboxes__element">
+                  <input type="checkbox" class="Red">
+                  <label for="Red">Красный</label>
+                </div>
+                <div class="ali-main-window__settings-menu__color-choice__checkboxes__element">
+                  <input type="checkbox" class="Yellow">
+                  <label for="Yellow">Желтый</label>
+                </div>
+                <div class="ali-main-window__settings-menu__color-choice__checkboxes__element">
+                  <input type="checkbox" class="Blue">
+                  <label for="Blue">Синий</label>
+                </div>
+                <div class="ali-main-window__settings-menu__color-choice__checkboxes__element">
+                  <input type="checkbox" class="Black">
+                  <label for="Black">Черный</label>
+                </div>
+              </div>
+            </div>
+            <div class="ali-main-window__settings-menu__feature">
+              <span class="unused-text">Особенности</span>
+              <div class="ali-main-window__settings-menu__feature__checkboxes">
+                <div class="ali-main-window__settings-menu__feature__checkboxes__element">
+                  <input type="checkbox" class="ecological">
+                  <label for="ecological">Экологичный</label>
+                </div>
+                <div class="ali-main-window__settings-menu__feature__checkboxes__element">
+                  <input type="checkbox" class="standart">
+                  <label for="standart">Стандартный</label>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ali-main-window__product-list">
+          <div class="ali-main-window__hierarchy-of-calls">
+            <div class="ali-main-window__hierarchy-of-calls__element">
+              <span class="ali-main-window__hierarchy-of-calls__element__name"> Все Категории ></span>
+            </div>
+            <div class="ali-main-window__hierarchy-of-calls__element">
+              <span class="ali-main-window__hierarchy-of-calls__element__name"> мусор ></span>
+            </div>
+            <div class="ali-main-window__hierarchy-of-calls__search-result">
+              <span class="ali-main-window__hierarchy-of-calls__search-result__name">"гелик"</span>
+            </div>
+            <div class="ali-main-window__hierarchy-of-calls__count-of-results">
+              <span class="ali-main-window__hierarchy-of-calls__count-of-results__number">(2142412551221312 результата)</span>
+            </div>
+          </div>
+          <div class="ali-main-window__product-list__price-filter">
+            <span class="unused-text"> Цена:</span>            
+            <div class="ali-main-window__product-list__price-filter__lower-price">
+              <input class="ali-main-window__product-list__price-filter__lower-price__input" placeholder="мин">
+            </div>
+            <span class="unused-text">-</span>    
+            <div class="ali-main-window__product-list__price-filter__higher-price">
+              <input class="ali-main-window__product-list__price-filter__higher-price__input" placeholder="макс">
+            </div>
+            <form class="ali-main-window__product-list__price-filter__transport-menu">
+              <select class="ali-main-window__product-list__price-filter__transport-menu__options">
+                <option disabled value="1" selected> Отправка из</option>
+                <option class="Turkey">Turkey</option>
+                <option class="China">China</option>
+              </select>
+            </form>
+          </div>
+          <div class="ali-main-window__product-list__product-options">
+            <div class="product-on-sale">
+            <input type="checkbox" class="product-on-sale__checkbox">
+            <label class="product-on-sale__label" for="product-on-sale">
+              <img class="product-on-sale__label__icon" src="src/img/sale-icon.png">
+             <span class="unused-text"> Товары на распродаже</span>
+            </label>
+            </div>
+            <div class="free-shipping">
+            <input type="checkbox" class="free-shipping__checkbox">
+            <label class="free-shipping__label" for="free-shipping  ">
+             <span class="unused-text">Бесплатная доставка</span>
+            </label>
+            </div>
+            <div class="four-stars-or-more">
+              <input type="checkbox" class="four-stars-or-more__checkbox">
+              <label class="four-stars-or-more__label" for="four-stars-or-more">
+                <img class="four-stars-or-more__label__icon" src="src/img/4-stars-or-more.png">
+               <span class="unused-text">или более</span>
+              </label>
+              </div>
+          </div>
+          <div class="ali-main-window__product-list__sort-wiew-menu">
+            <div class="ali-main-window__product-list__sort-menu">
+              <span class="unused-text">Сортировать по:</span>
+              <div class="ali-main-window__product-list__sort-menu__choicebox">
+                <span class="ali-main-window__product-list__sort-menu__choicebox__element__chosen">Лучший выбор</span>
+                <span class="ali-main-window__product-list__sort-menu__choicebox__element">По заказам</span>
+                <span class="ali-main-window__product-list__sort-menu__choicebox__element">Новинки</span>
+                <span class="ali-main-window__product-list__sort-menu__choicebox__element">Цена</span>
+              </div>
+            </div>
+            <div class="ali-main-window__product-list__wiew-menu">
+              <div class="unused-text">Вид:</div>
+              <div class="ali-main-window__product-list__wiew-menu__chosen-wiew-style">
+                <img class="ali-main-window__product-list__wiew-menu__chosen-wiew-style__icon" src="src/img/chosen-wiew-style.png">
+              </div>
+              <div class="ali-main-window__product-list__wiew-menu__wiew-style">
+                <img class="ali-main-window__product-list__wiew-menu__wiew-style__icon" src="src/img/abc.png">
+              </div>
+            </div>
+          </div>
+          <div class="ali-main-window__product-list__products">
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+            <div class="ali-main-window__product-list__products__element">
+              <img class="ali-main-window__product-list__products__element__image" src="src/img/product.jpg">
+              <span class="ali-main-window__product-list__products__element__name">Гелик 4 на 4</span>
+              <span class="ali-main-window__product-list__products__element__price">10-50 рублей</span>
+              <span class="ali-main-window__product-list__products__element__shipping-method">Бесплатная доставка</span>
+              <div class="ali-main-window__product-list__products__element__rating-sold">
+                <div class="ali-main-window__product-list__products__element__rating">
+                  <img class="ali-main-window__product-list__products__element__rating-icon" src="src/img/element-rating-icon.png">
+                  <span class="ali-main-window__product-list__products__element__rating-number">1.2</span>
+                </div>
+                <span class="ali-main-window__product-list__products__element__sold">1516 продано</span>
+              </div>
+              <span class="ali-main-window__product-list__products__element__seller-name">ИП Жмышенко</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
